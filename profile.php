@@ -43,6 +43,10 @@ session_start();
 						<a href="show-transaksi.php" title="show-transaksi" class="text-decoration-none rounded p-2 text-white" style="background-color:#BC0000">Transaksi Pembeli</a><br/>
 					</div>
 					<br/>
+					<div class="mb-6">
+						<a href="show-akumulasi.php" title="show-akumulasi" class="text-decoration-none rounded p-2 text-white" style="background-color:#BC0000">Akumulasi Penjualan</a><br/>
+					</div>
+					<br/>
 					<?php
 								}
 							}

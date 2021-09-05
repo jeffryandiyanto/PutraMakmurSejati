@@ -84,6 +84,13 @@ session_start();
 							$nominal = $_GET['nominal'];
 							$username = $_SESSION['username'];
 							$rand = rand(100, 999);
+							$getCart = mysqli_query($connection, "SELECT * FROM `cart` WHERE `username` = '$username'");
+							if (mysqli_num_rows($getCart) > 0) {
+								while ($cart = mysqli_fetch_array($getCart)) {
+									$product_id = $cart['productID'];
+									$uprand = mysqli_query($connection, "UPDATE `product` SET `jumlah_pembelian` = `jumlah_pembelian`+1 WHERE `productID` = '$product_id' ");
+								}
+							}
 							$delCart = mysqli_query($connection, "DELETE FROM `cart` WHERE `username` = '$username'");
 							$inputSql = mysqli_query($connection, "INSERT INTO `payment` (kode, item, nominal, username) VALUES ('$hasilKode', '$item', '$nominal', '$username')");
 							$uprand = mysqli_query($connection, "UPDATE `user` SET `user_ID` = '$rand'");
