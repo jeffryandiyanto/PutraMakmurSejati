@@ -1,0 +1,231 @@
+body{
+	margin: 0 auto;
+	word-wrap: break-word;
+}
+img {
+	max-width: 100%;
+}
+/* Navigation Bar */
+.navigasiBar {
+	overflow: hidden;
+	background-color: #52307C;
+	opacity: .9;
+}	
+.navigasiBar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: verdana;
+}
+.navigasiBar a:hover {
+	background-color: #4B008E;
+	color: red;
+}
+.navigasiBar a.fifthBar{
+	float: right;
+}
+.navigasiBar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  left: 50px;
+  margin-top: 16px;
+  margin-right: 12px;
+  font-size: 17px;
+  font-family: verdana;
+}
+/* Image */
+img.bannerUtama{
+	float: center;
+	width: 1370px;
+}
+img.iconCart{
+	width: 65px;
+	height: 65px;
+	position: relative;
+	left: 10px;
+	top: 25px;
+	margin-top: -50px;
+}
+/* Drop Down Menu */
+.second {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: verdana;
+  padding: 20px 15px;
+  font-size: 18px;
+}
+
+.drop-menu {
+  float: left;
+  display: inline-block;
+}
+
+.drop-konten {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  z-index: 1;
+}
+
+.drop-konten a {
+	float: none;
+  	color: black;
+  	padding: 15px 10px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+  	color: #ffffff;
+}
+
+.drop-konten a:hover {
+	background-color: #8700FF;
+}
+
+.drop-menu:hover .drop-konten {
+	display: block;
+	background-color: #000000;
+}
+
+.drop-menu:hover .third {
+	background-color: #8700FF;
+}
+
+/* Konten */
+/* 1. Home */
+.tabel-konten1{
+	border: 3px solid #8700FF;
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	margin-left: 300px;
+	padding: 30px;
+	text-align: center;
+	width: 25%;
+}
+.tabel-konten2{
+	border: 3px solid #8700FF;
+	display: inline;
+	float: right;
+	margin-top: 50px;
+	margin-right: 300px;
+	padding: 30px;
+	text-align: center;
+	width: 25%;
+}
+p.judulLagu{
+	text-align: center;
+	font-size: 20px;
+	font-family: verdana;
+	font-weight: bold;
+}
+/* 2. Artist */
+.tableContentArt{
+	width: 70%;
+	display: inline-block;
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    background: white;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.36);
+}
+th{
+	font-size: 50px;
+	text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 200px;
+}
+/* 3. Login */
+.tableContentRegis{
+      width: 55%;
+      display: inline-block;
+      border: 1px solid #C8C8C8;
+      border-radius: 10px;
+      background: white;
+      margin: 20px;
+      padding: 15px;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.36);
+      font-family: verdana;
+  }
+.textarea{
+    width: 190%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+th{
+     font-size: 30px;
+     text-align: center;
+     padding: 20px;
+     margin: auto;
+     width: 200px;    
+}
+.btn{
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      width: 55%;
+      padding: 15px;
+      background: #52307C;
+      border-bottom: 2px solid #52307C;
+      border-top-style: none;
+      border-right-style: none;
+      border-left-style: none;    
+      color: #fff;
+      font-size: 20px;
+}
+/* 4. Registration */
+.tablecontent{
+	width: 55%;
+	display: inline-block;
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.36);
+    font-family: verdana;
+}
+.textarea{
+    width: 190%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+th{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 200px;    
+}
+.btn{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 55%;
+    padding: 15px;
+    background: #52307C;
+    border-bottom: 2px solid #52307C;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+    font-size: 20px;
+}
